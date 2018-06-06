@@ -24,6 +24,8 @@ public class BootLoader {
 
 			write("Starting Minecraft Server...");
 
+			System.gc();
+			
 			startServer();
 			
 			write("Server has been stopped. Checking for restart request...");
